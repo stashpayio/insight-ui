@@ -1,8 +1,8 @@
 {
-  "name": "@dashevo/insight-ui",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Dash network and build your own services with it.",
+  "name": "@stashcore/insight-ui",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Stash network and build your own services with it.",
   "version": "1.1.1",
-  "repository": "git://github.com/dashevo/insight-ui.git",
+  "repository": "git://github.com/stashpayio/insight-ui.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -26,27 +26,29 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/dashevo/insight-ui/issues"
+    "url": "https://github.com/stashpayio/insight-ui/issues"
   },
-  "homepage": "https://github.com/dashevo/insight-ui",
+  "homepage": "https://github.com/stashpayio/insight-ui",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "dash",
-    "bitcore-dash",
+    "stash",
+    "bitcore-stash",
     "front-end",
-    "dashcore"
+    "stashcore"
   ],
-  "dashcoreNode": "dashcore-node",
+  "stashcoreNode": "stashcore-node",
   "scripts": {
     "build": "bower install && grunt compile",
     "watch": "grunt",
     "install-and-build": "npm install && npm run build",
     "test": "mocha test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "mocha": "^5.2.0"
+  },
   "devDependencies": {
     "bower": "~1.2.8",
     "grunt": "~0.4.2",

@@ -1,5 +1,5 @@
 {
-  "name": "insight-ui-dash",
+  "name": "insight-ui",
   "version": "0.0.1",
   "dependencies": {
     "angular": "~1.6.9",

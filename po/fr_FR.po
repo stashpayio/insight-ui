@@ -23,27 +23,27 @@ msgstr "404 Page introuvable :("
 #: public/views/index.html
 msgid ""
 "<strong>insight</strong>  is an <a href=\"http://live.insight.is/\" target=\"_blank"
-"\">open-source Dash blockchain explorer</a> with complete REST and websocket APIs "
+"\">open-source Stash blockchain explorer</a> with complete REST and websocket APIs "
 "that can be used for writing web wallets and other apps  that need more advanced "
-"blockchain queries than provided by dashd RPC.  Check out the <a href=\"https://"
-"github.com/dashpay/insight-ui-dash\" target=\"_blank\">source code</a>."
+"blockchain queries than provided by stashd RPC.  Check out the <a href=\"https://"
+"github.com/stashpayio/insight-ui\" target=\"_blank\">source code</a>."
 msgstr ""
 "<strong>insight</strong>  est un <a href=\"http://live.insight.is/\" target=\"_blank"
 "\">explorateur open-source de blocs</a> avec un ensemble complet d'API REST et "
 "websockets qui peuvent être utilisées pour écrire portefeuille et autres "
 "applications nécéssitant des requêtes plus complète que celles proposés par les "
-"commandes RPC de dashd. Consultez le <a href=\"http://github.com/dashpay/insight\" "
+"commandes RPC de stashd. Consultez le <a href=\"http://github.com/stashpayio/insight\" "
 "target=\"_blank\">code source sur GitHub</a>."
 
 #: public/views/index.html
 msgid ""
 "<strong>insight</strong> is still in development, so be sure to report any bugs and "
-"provide feedback for improvement at our <a href=\"https://github.com/dashpay/insight/"
+"provide feedback for improvement at our <a href=\"https://github.com/stashpayio/insight/"
 "issues\" target=\"_blank\">github issue tracker</a>."
 msgstr ""
 "<strong>insight</strong> est toujours en développement, hésitez pas à remonter tout "
-"bugs et proposer des améliorations sur notre <a href=\"https://github.com/dashpay/"
-"insight-ui-dash/issues\" target=\"_blank\">Github issue tracker</a>."
+"bugs et proposer des améliorations sur notre <a href=\"https://github.com/stashpayio/"
+"insight-ui/issues\" target=\"_blank\">Github issue tracker</a>."
 
 #: public/views/index.html
 msgid "About"
@@ -66,8 +66,8 @@ msgid "Best Block"
 msgstr "Meilleur Bloc"
 
 #: public/views/status.html
-msgid "Dash node information"
-msgstr "Information sur le noeud Dash"
+msgid "Stash node information"
+msgstr "Information sur le noeud Stash"
 
 #: public/views/block.html
 msgid "Block"
@@ -88,11 +88,11 @@ msgstr "Octets sérialisés"
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to dashd to get live updates from the p2p network. (Tried connecting "
-"to dashd at {{host}}:{{port}} and failed.)"
+"Can't connect to stashd to get live updates from the p2p network. (Tried connecting "
+"to stashd at {{host}}:{{port}} and failed.)"
 msgstr ""
-"Impossible de se connecter à dashd pour récupérer les dernières informations du "
-"réseau p2p. (Tentative de connexion à dashd ({{host}}:{{port}}) échouée.)"
+"Impossible de se connecter à stashd pour récupérer les dernières informations du "
+"réseau p2p. (Tentative de connexion à stashd ({{host}}:{{port}}) échouée.)"
 
 #: public/views/includes/connection.html
 msgid "Can't connect to insight server. Attempting to reconnect..."
@@ -192,8 +192,8 @@ msgid "Last Block"
 msgstr "Dernier bloc"
 
 #: public/views/status.html
-msgid "Last Block Hash (dashd)"
-msgstr "Hash du dernier bloc  (dashd)"
+msgid "Last Block Hash (stashd)"
+msgstr "Hash du dernier bloc  (stashd)"
 
 #: public/views/index.html
 msgid "Latest Blocks"
