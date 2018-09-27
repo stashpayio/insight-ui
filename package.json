@@ -1,7 +1,7 @@
 {
   "name": "@stashcore/insight-ui",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Stash network and build your own services with it.",
-  "version": "1.1.1",
+  "version": "1.1.11",
   "repository": "git://github.com/stashpayio/insight-ui.git",
   "contributors": [
     {
@@ -46,9 +46,7 @@
     "install-and-build": "npm install && npm run build",
     "test": "mocha test"
   },
-  "dependencies": {
-    "mocha": "^5.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "bower": "~1.2.8",
     "grunt": "~0.4.2",
