@@ -17,7 +17,7 @@ angular.module('insight.currency', ['ui.router','ui.bootstrap']).controller('Cur
         if (value === 0.00000000) return '0 ' + this.symbol; // fix value to show
 
         var response;
-
+        
         if (this.symbol === 'USD') {
           response = _roundFloat((value * this.factor), 2);
         } else if (this.symbol === 'mSTASH') {
