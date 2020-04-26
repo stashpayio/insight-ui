@@ -9,12 +9,12 @@ var InsightUI = function(options) {
   if (typeof options.apiPrefix !== 'undefined') {
     this.apiPrefix = options.apiPrefix;
   } else {
-    this.apiPrefix = 'api';
+    this.apiPrefix = 'insight-api';
   }
   if (typeof options.routePrefix !== 'undefined') {
     this.routePrefix = options.routePrefix;
   } else {
-    this.routePrefix = '';
+    this.routePrefix = 'insight';
   }
 };
 

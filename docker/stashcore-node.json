@@ -1,0 +1,22 @@
+{
+  "network": "livenet",
+  "port": 3001,
+  "services": [
+    "stashd",
+    "@stashcore/insight-api",
+    "@stashcore/insight-ui",
+    "web"
+  ],
+  "servicesConfig": {
+    "stashd": {
+      "connect": [{
+        "rpchost": "127.0.0.1",
+        "rpcport": 9998,
+        "rpcuser": "stash",
+        "rpcpassword": "local321",
+        "zmqpubrawtx": "tcp://127.0.0.1:29998",
+        "zmqpubhashblock": "tcp://127.0.0.1:29998"
+      }]
+    }
+  }
+}
