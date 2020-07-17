@@ -49,9 +49,8 @@
           <tbody>
           <tr data-ng-show="!txs.length"><td colspan="3" translate>Waiting for transactions...</td></tr>
           <tr class="fader" data-ng-repeat='tx in txs'>
-            <td>
-              <a class="ellipsis" href="tx/{{tx.txid}}">{{tx.txid}}</a>
-            </td>
+            <td><a class="ellipsis" href="tx/{{tx.txid}}">{{tx.txid}}</a></td>
+            <td data-ng-show="tx.txlock"><span class="label label-success">IX Confirmed</span></td>
             <td class="text-right"><span class="ellipsis">{{$root.currency.getConvertion(tx.valueOut) || tx.valueOut + ' STASH'}}</span></td>
           </tr>
           </tbody>

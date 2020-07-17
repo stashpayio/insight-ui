@@ -18,12 +18,21 @@ angular.module('insight.system').controller('IndexController',
 
     var socket = getSocket($scope);
 
-    var _startSocket = function() { 
+    var _startSocket = function() {
       socket.emit('subscribe', 'inv');
       socket.on('tx', function(tx) {
         $scope.txs.unshift(tx);
         if (parseInt($scope.txs.length, 10) >= parseInt(TRANSACTION_DISPLAYED, 10)) {
           $scope.txs = $scope.txs.splice(0, TRANSACTION_DISPLAYED);
+        }
+      });
+
+      socket.on('txlock', function(tx) {
+        for (let index = 0; index < $scope.txs.length; index++) {
+          if ($scope.txs[index].txid === tx.txid) {
+             $scope.txs[index].txlock = tx.txlock;
+             break;
+          }
         }
       });
 
